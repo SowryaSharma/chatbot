@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="stylesheet" href="index.css">
+       <script src="index.js"></script>
+    </head>
+
+    <nav>
+      <ui>
+        <li><button onclick="addQnA()">Add more Q&A</button></li>
+        <li><button onclick="home()">Home</button></li>
+      </ui>
+    </nav>
+
+
+
+<div id='bodybox'>
+<br>
+<p id="usersent" class="chatlog">&nbsp;</p>
+<p id="reply" class="chatlog">&nbsp;</p>
+<input type="text" name="chat" class="chatbox" id="chatbox" placeholder="Send message" >
+<button onclick="inp()" id="butt">send</button>
+</div>
+<div id="uqna">
+<p>Enter question:</p><br>
+<input type="text" placeholder="enter question" id="aq" class="chatbox">
+<p>Enter answer you expect for the question:</p>
+<input type="text" placeholder"enter answer" id="aa" class="chatbox" placeholder="enter answer"><br>
+<button id="butt" onclick="submitQnA()">Submit</button>
+</div>
+
+    </body> 
+
+
+
+
+</html>
