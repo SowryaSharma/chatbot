@@ -1,0 +1,87 @@
+nav{
+  width:100%;
+  position:fixed;
+}
+
+nav ui li{
+  overflow:hidden;
+  display:inline;
+  padding:14px 16px;
+  float:right;
+  color:white;
+}
+nav button{
+background-color:inherit;
+border:0;
+color:white;
+}
+
+
+body {
+font: 15px arial, sans-serif;
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#bodybox {
+margin: auto;
+position:relative;
+top:100px;
+max-width: 550px;
+font: 15px arial, sans-serif;
+background-color: white;
+border-style: solid;
+border-width: 1px;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-right: 25px;
+padding-left: 25px;
+box-shadow: 5px 5px 5px grey;
+border-radius: 15px;
+}
+
+
+.chatlog {
+ font: 15px arial, sans-serif;
+}
+
+.chatbox {
+font: 17px arial, sans-serif;
+height: 22px;
+width:85%;
+}
+#butt{
+width:10%;
+overflow:hidden;
+
+}
+
+#uqna{
+display:none;
+position:relative;
+top:100px;
+margin: auto;
+max-width: 550px;
+font: 15px arial, sans-serif;
+background-color: white;
+border-style: solid;
+border-width: 1px;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-right: 25px;
+padding-left: 25px;
+box-shadow: 5px 5px 5px grey;
+border-radius: 15px;
+}
+@media screen and (max-width:600px){
+#chatbox {
+font: 17px arial, sans-serif;
+height: 22px;
+width:65%;
+}
+#butt{
+width:30%;
+overflow:hidden;
+}
+}   
